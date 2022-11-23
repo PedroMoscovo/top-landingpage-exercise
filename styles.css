@@ -83,7 +83,7 @@ a {
     height: 250px;
 }
 
-button {
+.hero-btn {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -137,11 +137,15 @@ button {
 
 .quote{
     background-color: #E5E7EB;
-    padding: 75px 275px;
+    padding: 75px 300px;
     display: flex;
     flex-direction: column;
 }
 
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
 .quote-text {
     font-size: 36px;
     color: #1F2937;
@@ -151,4 +155,13 @@ button {
 .quote-name {
     align-self: flex-end;
     font-weight: 800;
+}
+
+/* CTA */
+
+.sign-up{
+    border: 3px solid white;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px;
 }
